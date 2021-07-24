@@ -5,7 +5,7 @@ defmodule Mthomps4.Blog.Post do
 
   schema "posts" do
     field :file_path, :string
-    field :published_on, :utc_datetime
+    field :published_on, :date
     field :title, :string
 
     many_to_many :tags, Tag, join_through: "posts_tags"
@@ -13,10 +13,11 @@ defmodule Mthomps4.Blog.Post do
   end
 
   @doc false
-  def changeset(post, attrs) do
+  def changeset(post, %{tags: tags} = attrs) do
     post
     |> cast(attrs, [:title, :published_on, :file_path])
-    |> cast_assoc(:tags)
     |> validate_required([:title, :published_on, :file_path])
+    |> unique_constraint(:title)
+    |> put_assoc(:tags, tags)
   end
 end

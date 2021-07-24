@@ -8,5 +8,6 @@ defmodule Mthomps4.Repo.Migrations.CreateTags do
       timestamps()
     end
 
+    unique_index(:tags, [:name])
   end
 end

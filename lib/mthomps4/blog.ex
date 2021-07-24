@@ -197,4 +197,9 @@ defmodule Mthomps4.Blog do
   def change_tag(%Tag{} = tag, attrs \\ %{}) do
     Tag.changeset(tag, attrs)
   end
+
+  def tags_by_list_of_name(list) do
+    Tag.by_name_list(list)
+    |> Repo.all()
+  end
 end

@@ -1,5 +1,6 @@
 defmodule Mthomps4.Blog.Tag do
   use Ecto.Schema
+  import Ecto.Query
   import Ecto.Changeset
   alias Mthomps4.Blog.Post
 
@@ -15,5 +16,10 @@ defmodule Mthomps4.Blog.Tag do
     tag
     |> cast(attrs, [:name])
     |> validate_required([:name])
+    |> unique_constraint(:name)
+  end
+
+  def by_name_list(list) when is_list(list) do
+    from(t in __MODULE__, where: t.name in ^list)
   end
 end
