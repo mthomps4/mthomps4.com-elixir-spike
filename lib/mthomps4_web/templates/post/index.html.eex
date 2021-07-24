@@ -1,0 +1,13 @@
+<div>
+  <h1> BLOG </h1>
+
+  <h2> Tags: </h2>
+  <%= for tag <- @tags do %>
+   <p> <%= tag.name %> </p>
+  <% end %>
+
+  <h3> Posts: </h3>
+  <%= for post <- @posts do %>
+   <p> <%= post.title %> </p>
+  <% end %>
+</div>
