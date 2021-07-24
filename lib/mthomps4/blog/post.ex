@@ -15,7 +15,7 @@ defmodule Mthomps4.Blog.Post do
   @doc false
   def changeset(post, attrs) do
     post
-    |> cast(attrs, [:title, :published_on, :last_updated_on, :file_path])
+    |> cast(attrs, [:title, :published_on, :file_path])
     |> cast_assoc(:tags)
     |> validate_required([:title, :published_on, :file_path])
   end

@@ -28,3 +28,10 @@ tags = [
 Enum.map(tags, fn name ->
   Mthomps4.Blog.create_tag(%{name: name})
 end)
+
+Mthomps4.Blog.create_post(%{
+  title: "Woodworkers Intro",
+  published_on: DateTime.utc_now(),
+  file_path:
+    "priv/static/posts/software_development_a_woodworkers_perspective/part1-planning_and_preparation.md"
+})

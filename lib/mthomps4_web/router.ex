@@ -18,8 +18,8 @@ defmodule Mthomps4Web.Router do
     pipe_through :browser
 
     live "/", PageLive, :index
-    get "posts", PostController, :index
-    get "post/:id", PostController, :show
+    get "/posts", PostController, :index
+    get "/post/:id", PostController, :show
   end
 
   # Other scopes may use custom stacks.

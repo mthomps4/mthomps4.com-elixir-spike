@@ -6,9 +6,17 @@ defmodule Mthomps4.BlogTest do
   describe "posts" do
     alias Mthomps4.Blog.Post
 
-    @valid_attrs %{file_path: "some file_path", last_updated_on: "2010-04-17T14:00:00Z", published_on: "2010-04-17T14:00:00Z", title: "some title"}
-    @update_attrs %{file_path: "some updated file_path", last_updated_on: "2011-05-18T15:01:01Z", published_on: "2011-05-18T15:01:01Z", title: "some updated title"}
-    @invalid_attrs %{file_path: nil, last_updated_on: nil, published_on: nil, title: nil}
+    @valid_attrs %{
+      file_path: "some file_path",
+      published_on: "2010-04-17T14:00:00Z",
+      title: "some title"
+    }
+    @update_attrs %{
+      file_path: "some updated file_path",
+      published_on: "2011-05-18T15:01:01Z",
+      title: "some updated title"
+    }
+    @invalid_attrs %{file_path: nil, published_on: nil, title: nil}
 
     def post_fixture(attrs \\ %{}) do
       {:ok, post} =
@@ -32,7 +40,6 @@ defmodule Mthomps4.BlogTest do
     test "create_post/1 with valid data creates a post" do
       assert {:ok, %Post{} = post} = Blog.create_post(@valid_attrs)
       assert post.file_path == "some file_path"
-      assert post.last_updated_on == DateTime.from_naive!(~N[2010-04-17T14:00:00Z], "Etc/UTC")
       assert post.published_on == DateTime.from_naive!(~N[2010-04-17T14:00:00Z], "Etc/UTC")
       assert post.title == "some title"
     end
@@ -45,7 +52,6 @@ defmodule Mthomps4.BlogTest do
       post = post_fixture()
       assert {:ok, %Post{} = post} = Blog.update_post(post, @update_attrs)
       assert post.file_path == "some updated file_path"
-      assert post.last_updated_on == DateTime.from_naive!(~N[2011-05-18T15:01:01Z], "Etc/UTC")
       assert post.published_on == DateTime.from_naive!(~N[2011-05-18T15:01:01Z], "Etc/UTC")
       assert post.title == "some updated title"
     end
