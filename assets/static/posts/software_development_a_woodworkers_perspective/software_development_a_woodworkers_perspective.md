@@ -1,5 +1,5 @@
 
-![title-image](./images/intro/3wirebuild2.png)
+![title-image](/posts/software_development_a_woodworkers_perspective/images/intro/3wirebuild2.png)
 
 Photo by [Matt Thompson @3wirebuild](https://instagram.com/3wirebuild)
 
@@ -25,7 +25,7 @@ Currently, I’m a software engineer by day and a traditional woodworker wannabe
 
 Admittedly, that’s the hard part. You want to be the best. You want to succeed. People are depending on you. You’re running that race, but somehow always feel behind. Suddenly, you’re in your own head. When living that *always forward* lifestyle, people seem to forget the obvious. It’s exhausting. It’s a marathon, not a sprint, and the finish line moves. It doesn’t stop moving and neither will you if you choose. One day I’m unloading trucks, the next its building an app, and tomorrow… maybe I’ll finally start building that kitchen table I sketched three years ago. Life changes. Enjoy the process, and learn from it.
 
-![wood plane](./images/intro/3wirebuild2.png)
+![wood plane](/posts/software_development_a_woodworkers_perspective/images/intro/3wirebuild2.png)
 
 
 In my studies as a woodworker, I’ve encountered multiple books that take on the same two questions every beginner has. “How long did it take to master your craft?” and “How do I do the same?”
