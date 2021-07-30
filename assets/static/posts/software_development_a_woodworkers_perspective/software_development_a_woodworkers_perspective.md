@@ -1,5 +1,5 @@
 
-![title-image](/posts/software_development_a_woodworkers_perspective/images/intro/3wirebuild2.png)
+![title-image](/posts/software_development_a_woodworkers_perspective/images/intro/3wirebuild2.png){:.title-image}
 
 Photo by [Matt Thompson @3wirebuild](https://instagram.com/3wirebuild)
 

@@ -1,6 +1,6 @@
 # Hyper Focused → Hyper Productive
 
-![Magnifier](https://raw.githubusercontent.com/mthomps4/blog-posts/master/posts/hyper_focused-hyper_productive/images/magnifier.jpg)
+![Magnifier](/posts/hyper_focused-hyper_productive/images/magnifier.jpg){:.title-image}
 
 Photo by [Agence Olloweb](https://unsplash.com/@olloweb) on [Unsplash](https://unsplash.com)
 

@@ -1,4 +1,4 @@
-![title-image](https://raw.githubusercontent.com/mthomps4/posts/master/posts/software_development_a_woodworkers_perspective/images/part4/band-aid-bear.jpg)
+![title-image](/posts/software_development_a_woodworkers_perspective/images/part4/band-aid-bear.jpg){:.title-image}
 
 
 # Software Development: A Woodworkers Perspective (Part 4) “Don’t Be A Hero”
@@ -31,4 +31,4 @@ You can’t invest 110% in all areas of your life.At least not at the same time.
 **Don’t be a hero — It hurts.**
 
 -----------
-_note: Is this your title image? I lost the reference along the way... Let me know here! [github](https://github.com/mthomps4/posts)_
+_note: Is this your title image? I lost the reference along the way... Let me know @mthomps4_

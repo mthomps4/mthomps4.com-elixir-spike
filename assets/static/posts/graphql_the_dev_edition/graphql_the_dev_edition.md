@@ -1,6 +1,6 @@
 
 # GraphQL the Dev Edition
-![title-image](https://raw.githubusercontent.com/mthomps4/posts/master/posts/graphql_the_dev_edition/images/luke-chesser-JKUTrJ4vK00-unsplash.jpg)
+![title-image](/posts/graphql_the_dev_edition/images/luke-chesser-JKUTrJ4vK00-unsplash.jpg){:.title-image}
 
 Photo by [Luke Chesser](https://unsplash.com/@lukechesser) on [Unsplash](https://unsplash.com/)
 

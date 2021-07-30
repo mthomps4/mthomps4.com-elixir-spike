@@ -1,6 +1,6 @@
 # Up and Running — Next.js and TypeORM - Part II
 
-![title-image](https://raw.githubusercontent.com/mthomps4/posts/master/posts/up_and_running/images/next-typeorm/kevin-ku-w7ZyuGYNpRQ-unsplash.jpg "title"){:.title-image}
+![title-image](/posts/up_and_running/images/next-typeorm/kevin-ku-w7ZyuGYNpRQ-unsplash.jpg "title"){:.title-image}
 
 Photo by [Kevin Ku](https://unsplash.com/@ikukevk) on [Unsplash](https://unsplash.com/)
 
@@ -81,48 +81,48 @@ So we have a script that creates our databases and scripts to create an entity a
 
 If you are following along in the repo take a peek at `.env.example` quite a few variables have been added in for TypeORM.
 
-![env example](https://raw.githubusercontent.com/mthomps4/posts/master/posts/up_and_running/images/next-typeorm/envexample.png)
+![env example](/posts/up_and_running/images/next-typeorm/envexample.png)
 
 You have the normal DB setup here with connection type, host, db, port, etc. but we also have some ENV’s set for Entities Migrations and their respective directories. TypeORM will look to these files when making a comparison for migrations and use the directories when we generate new content. If you look into the root of our project you’ll see a folder set for both.
 
 Adding these to our .env file we can now try out our first command. `yarn g:entity User`. You should see a new User.ts file appear within your entities folder. As *exciting* as it looks this will be our base for adding the User model and table to Postgres.
 
-![blank user entity](https://raw.githubusercontent.com/mthomps4/posts/master/posts/up_and_running/images/next-typeorm/blankUserEntity.png)
+![blank user entity](/posts/up_and_running/images/next-typeorm/blankUserEntity.png)
 
 # **Adding the user table**
 
 Let’s start building this User Entity out. I’m going to be covering a handful of example types here just to show how TypeORM migrations shine. TypeORM uses its helpers to define columns for the database tables. We also include our public and private typings here on the Entity for TypeScript. For starters, let’s add name and email columns by importing the `Column` helper from `typeorm`. We will also go ahead and import `Index` to make our email filed unique.
 
-![env example photo](https://raw.githubusercontent.com/mthomps4/posts/master/posts/up_and_running/images/next-typeorm/ColumnFields.png)
+![env example photo](/posts/up_and_running/images/next-typeorm/ColumnFields.png)
 
 Taking a closer look you’ll notice that Column takes an object of keys that are database specific. Underneath each of these, you’ll also see the field is defined as a public field for typescript. A quick note, you can define different field names within Column if you would like to map to something different. eg. first_name maps to firstName. We’ll see how this all plays out in a second but for now, let’s keep going.
 
 Enums. At some point, you’ll want to add a field that has limited values. For this example, we are going to add a role to the user. Similar to the other fields we will still use Column, but expand on the type options for Postgres. We’ve also defined this as a constant type to use within our application code.
 
-![env example photo](https://raw.githubusercontent.com/mthomps4/posts/master/posts/up_and_running/images/next-typeorm/EnumField.png)
+![env example photo](/posts/up_and_running/images/next-typeorm/EnumField.png)
 
 Finally, you’ll notice I’ve used TypeORM’s utils for timestamps and primary keys. I’ve also brought in a before insert helper to set the primary id to a UUID rather than the Postgres default of 1, 2, 3. I know this is a lot but you altogether you should be looking at something like this.
 
-![env example photo](https://raw.githubusercontent.com/mthomps4/posts/master/posts/up_and_running/images/next-typeorm/FullUserModel.png)
+![env example photo](/posts/up_and_running/images/next-typeorm/FullUserModel.png)
 
 # **Migrations**
 
 Great, we have a User Entity but what does all this code buy us? Let’s get back on track and run the other yarn script we created earlier `yarn g:migration AddUserEntity`. If everything ran successfully you'll see a new file under the root migrations folder that should look similar to below. There is one thing to note however, remember when I mentioned these migration files weren't always 100% perfect. Well, here is a perfect example. The Postgres extension for our UUID may not be installed but TypeORM has no way to know this when auto-generating this file. It simply compares the model we created to that in the database. To combat this we've added one more line to the `up` method await `queryRunner.query(CREATE EXTENSION IF NOT EXISTS "uuid-ossp");`. This will ensure when the migrations run we Postgres will install the needed extension.
 
-![https://miro.medium.com/max/1230/1*X8ANdvLln5lAGaYd3orBoA.png](https://miro.medium.com/max/1230/1*X8ANdvLln5lAGaYd3orBoA.png)
+![/posts/up_and_running/images/next-typeorm/AddUserMigration.png](/posts/up_and_running/images/next-typeorm/AddUserMigration.png)
 
 Everything looks good. Let’s run one more command. `yarn db:migrate:local` under the hood, this uses our custom `typeorm:local` setup and runs the typeorm command `migrations:run`. You should see an output similar to below and check Postgres to see that the user table was created.
 
 
 
-![env example photo](https://raw.githubusercontent.com/mthomps4/posts/master/posts/up_and_running/images/next-typeorm/migrate.png)
+![env example photo](/posts/up_and_running/images/next-typeorm/migrate.png)
 
 # **Making Some Users**
 
 Alright, so far we’ve made our Entity, created and ran our Migrations, let’s get some Users into the database. While you could do this manually, we want to make this dynamic enough that others can get up and running as well. We’ll create a Factory and create a user seed file to create some users. Eventually, this Factory can also be used to test our users. Inside of our example codebase, you’ll see a folder for `factories` with the following code inside the UserFactory.
 
 
-![env example photo](https://raw.githubusercontent.com/mthomps4/posts/master/posts/up_and_running/images/next-typeorm/UserFactory.png)
+![env example photo](/posts/up_and_running/images/next-typeorm/UserFactory.png)
 
 The big thing to note here is our build and create methods. With TypeORM you have the ability to `create` the record and validate it before we `save` it to the database. We know what record this will be by accessing the `getReposiotry` method and passing in our `Entity`. It's also worth noting TypeORM will add any of the default and null values missing from `userAttrs`. In this case, the only key required is email, we've used the chance library here to ensure one is always created but we can also pass other fields in to add to or overwrite our factory defaults. Now we can import this in a seed file and run our create method.
 
@@ -135,29 +135,29 @@ Adding more of these lines we can attempt to run this seed file within our yarn 
 Again, this will use our custom `local` config that points to the correct ENV credentials for TypeORM and runs our seed file. If everything ran successfully you should see some users in the Database!
 
 
-![env example photo](https://raw.githubusercontent.com/mthomps4/posts/master/posts/up_and_running/images/next-typeorm/db-preview.png)
+![env example photo](/posts/up_and_running/images/next-typeorm/db-preview.png)
 
 # **Show Me Some Users!**
 
 Nice, we’ve set up **a lot** of useful tools and got some users in the database, but data means nothing if we can’t view it. We are going to expand on Next.js REST API to get our Users. With Next.js, inside of the pages folder, their lies an `api` folder. This folder is used by Next.js to create endpoints dynamically based on the file names. In this example, we've made a `getUsers` file with the following. In the example here we are simply returning all users, importing our User Entity and the `getRepository` again we have access to the `.find()` method. We connect to our database, ensure we can find the entity and find the users returning them as a JSON Blob for our app. In the real world, you'll want to expand this for error handling but this works fine for now.
 
 
-![env example photo](https://raw.githubusercontent.com/mthomps4/posts/master/posts/up_and_running/images/next-typeorm/getUser.png)
+![env example photo](/posts/up_and_running/images/next-typeorm/getUser.png)
 
 I’m sure you were wondering if we would ever get to this point, but let’s start up our app by running either `now dev` or `yarn now:dev`. Running our Next.js app with Now ensures our ENV's are compiled in properly. Once the app has started, navigate to `localhost:3000/api/getUsers`. You should have some data!
 
 
-![env example photo](https://raw.githubusercontent.com/mthomps4/posts/master/posts/up_and_running/images/next-typeorm/userjson.png)
+![env example photo](/posts/up_and_running/images/next-typeorm/userjson.png)
 
 Fantastic! Let’s wrap this up and add some data to our home page. To do this we’ll use Reacts `useState` and `useEffect` hook to hit our API. Within our index page, we will add these lines.
 
-![env example photo](https://raw.githubusercontent.com/mthomps4/posts/master/posts/up_and_running/images/next-typeorm/getUserEffect.png)
+![env example photo](/posts/up_and_running/images/next-typeorm/getUserEffect.png)
 
 
 You should be able to map users and style however you’d like. With the app still running, navigate back to `localhost:3000` and check out your results.
 
 
-![env example photo](https://raw.githubusercontent.com/mthomps4/posts/master/posts/up_and_running/images/next-typeorm/HomeWithUsers.png)
+![env example photo](/posts/up_and_running/images/next-typeorm/HomeWithUsers.png)
 
 # **Wrapping up**
 

@@ -1,4 +1,4 @@
-![title-image](https://raw.githubusercontent.com/mthomps4/posts/master/posts/software_development_a_woodworkers_perspective/images/part5/designer-working-on-laptop.jpg)
+![title-image](/posts/software_development_a_woodworkers_perspective/images/part5/designer-working-on-laptop.jpg){:.title-image}
 [unsplash.com](https://unsplash.com/)
 
 
@@ -44,9 +44,9 @@ Do Good. Then do good work.
 Until next time,Cheers!
 
 
-![Finsihed Bottle Case](https://raw.githubusercontent.com/mthomps4/posts/master/posts/software_development_a_woodworkers_perspective/images/part5/screenshot.png)
+![Finsihed Bottle Case](/posts/software_development_a_woodworkers_perspective/images/part5/screenshot.png)
 Photo by [Matt Thompson @3wirebuild](https://instagram.com/3wirebuild)
 
 
 --------
-_note: Is this your title image? I lost the reference along the way... Let me know here! [github](https://github.com/mthomps4/posts)_
+_note: Is this your title image? I lost the reference along the way... Let me know @mthomps4_

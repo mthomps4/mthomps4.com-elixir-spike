@@ -1,4 +1,4 @@
-![title-image](https://raw.githubusercontent.com/mthomps4/posts/master/posts/software_development_a_woodworkers_perspective/images/part1/IMG_3775.jpg)
+![title-image](/posts/software_development_a_woodworkers_perspective/images/part1/IMG_3775.jpg){:.title-image}
 
 Photo by [Matt Thompson @3wirebuild](https://instagram.com/3wirebuild)
 
@@ -26,9 +26,9 @@ It all seems simple enough, but after your first couple of projects you’ll hit
 
 Left: Start with something unrelated Middle: Mark it out. What stays? What goes? Right: Mistakes happen
 
- Plan and Prep! | Matt Thompson | [@3wirebuild](https://instagram.com/3wirebuild)
---- | --- | ---
-![trio-image](https://raw.githubusercontent.com/mthomps4/posts/master/posts/software_development_a_woodworkers_perspective/images/part1/IMG_3785.jpg)  | ![trio-image](https://raw.githubusercontent.com/mthomps4/posts/master/posts/software_development_a_woodworkers_perspective/images/part1/IMG_3797.jpg) | ![trio-image](https://raw.githubusercontent.com/mthomps4/posts/master/posts/software_development_a_woodworkers_perspective/images/part1/IMG_3800.jpg)
+ | Plan and Prep!                                                                                 | Matt Thompson                                                                                  | [@3wirebuild](https://instagram.com/3wirebuild)                                                |
+ | ---------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
+ | ![trio-image](/posts/software_development_a_woodworkers_perspective/images/part1/IMG_3785.jpg) | ![trio-image](/posts/software_development_a_woodworkers_perspective/images/part1/IMG_3797.jpg) | ![trio-image](/posts/software_development_a_woodworkers_perspective/images/part1/IMG_3800.jpg) |
 
 # **Layout**
 
