@@ -49,7 +49,7 @@ defmodule Mthomps4.Blog do
       {:error, %Ecto.Changeset{}}
 
   """
-  def create_post(attrs \\ %{}) do
+  def create_post(attrs) do
     %Post{}
     |> Post.changeset(attrs)
     |> Repo.insert()
@@ -98,7 +98,7 @@ defmodule Mthomps4.Blog do
       %Ecto.Changeset{data: %Post{}}
 
   """
-  def change_post(%Post{} = post, attrs \\ %{}) do
+  def change_post(%Post{} = post, attrs) do
     Post.changeset(post, attrs)
   end
 
