@@ -18,7 +18,7 @@ const date_ob = new Date(timestamp);
 const day = date_ob.getDate();
 const month = date_ob.getMonth() + 1;
 const year = date_ob.getFullYear();
-const dateString = `${month}-${day}-${year}`;
+const dateString = `${year}-${month}-${day}`;
 
 const slugName = slugify(postName);
 const foldername = `${dateString}-${slugName}`;

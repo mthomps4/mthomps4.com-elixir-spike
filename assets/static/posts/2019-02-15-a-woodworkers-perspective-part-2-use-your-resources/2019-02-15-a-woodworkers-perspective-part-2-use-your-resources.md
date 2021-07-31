@@ -1,4 +1,4 @@
-![title-image](/posts/software_development_a_woodworkers_perspective/images/part2/IMG_3957.jpg){:.title-image}
+# ![title-image](/posts/software_development_a_woodworkers_perspective/images/part2/IMG_3957.jpg){:.title-image}
 
 # Software Development: A Woodworkers Perspective (Part 2): Use Your Resources
 

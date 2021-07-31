@@ -1,4 +1,3 @@
-
 # Rolling Your Team RPG Style
 
 ![title-image](/posts/rolling_your_team_rpg_style/images/erica-li-Swd6d6M233k-unsplash.jpg){:.title-image}
