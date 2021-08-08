@@ -1,17 +1,10 @@
-![title-image](/posts/software_development_a_woodworkers_perspective/images/part5/designer-working-on-laptop.jpg){:.title-image}
+![title-image](/posts/2019-04-01-software_development_a_woodworkers_perspective/images/part5/designer-working-on-laptop.jpg){:.title-image}
 [unsplash.com](https://unsplash.com/)
 
 
 # Software Development: A Woodworkers Perspective (Final) “Make it a habit!”
 
-**Previous:**
-[Plan and Prep](./software_development_a_woodworkers_perspective_(part1)-planning_and_preperation.md)
-[Use your resources](./software_development_a_woodworkers_perspective_(part2)-use_your_resources.md)
-[Learn from every experience good and bad](./software_development_a_woodworkers_perspective_(part3)-every-cut-counts.md)
-[Don’t be a hero](./software_development_a_woodworkers_perspective_(part4)-don't_be_a_hero.md)
-Finally, make it all a habit.
-
-# **Make it a Habit**
+## **Make it a Habit**
 
 You finished a project — congrats!
 
@@ -44,7 +37,7 @@ Do Good. Then do good work.
 Until next time,Cheers!
 
 
-![Finsihed Bottle Case](/posts/software_development_a_woodworkers_perspective/images/part5/screenshot.png)
+![Finsihed Bottle Case](/posts/2019-04-01-software_development_a_woodworkers_perspective/images/part5/screenshot.png)
 Photo by [Matt Thompson @3wirebuild](https://instagram.com/3wirebuild)
 
 

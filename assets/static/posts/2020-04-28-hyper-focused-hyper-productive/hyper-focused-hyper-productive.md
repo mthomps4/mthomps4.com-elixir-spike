@@ -1,6 +1,6 @@
 # Hyper Focused → Hyper Productive
 
-![Magnifier](/posts/hyper_focused-hyper_productive/images/magnifier.jpg){:.title-image}
+![Magnifier](/posts/2020-04-08-hyper_focused-hyper_productive/images/magnifier.jpg){:.title-image}
 
 Photo by [Agence Olloweb](https://unsplash.com/@olloweb) on [Unsplash](https://unsplash.com)
 

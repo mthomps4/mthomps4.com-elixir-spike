@@ -1,6 +1,6 @@
 # Rolling Your Team RPG Style
 
-![title-image](/posts/rolling_your_team_rpg_style/images/erica-li-Swd6d6M233k-unsplash.jpg){:.title-image}
+![title-image](/posts/2019-10-21-rolling-your-team-rpg-style/images/erica-li-Swd6d6M233k-unsplash.jpg){:.title-image}
 
 Photo by [Erica Li](https://unsplash.com/@sept_pancake) on [Unsplash](https://unsplash.com/)
 
@@ -37,7 +37,7 @@ Typically right behind the tank is another armor-clad warrior carrying a large a
 
 Similar to the melee attacker, the goal here is to clear the field. However, the ranged attacker always seems to be a bit more *specialized* in their area and able to focus on objectives and typically single targets. Surprisingly enough the melee attacker cannot just charge through and expect to make it out alive. They get cocky… the ranged attacker knows this and has their back. As the melee starts clearing the field and moving forward, ranged support picks off targets missed by or flanking the warrior. However helpful, this is not their sole job. Ranged support can also pair with the scouts and start carving the battlefield to move the team forward. A *friendly* competition normally occurs between the melee and ranged folks about which approach is better, but you need both to succeed. They also feel validated when the field is clear and the job is done.
 
-![/posts/rolling_your_team_rpg_style/images/counts-as-one.png](/posts/rolling_your_team_rpg_style/images/counts-as-one.png "That still only counts as one! ~Gimli")
+![/posts/2019-10-21-rolling-your-team-rpg-style/images/counts-as-one.png](/posts/2019-10-21-rolling-your-team-rpg-style/images/counts-as-one.png "That still only counts as one! ~Gimli")
 
 **The Healer**
 
@@ -57,7 +57,7 @@ So which are you? Naturally, our personalities will lean toward one or the other
 
 In truth, especially in consulting work, you’ll be called to fill all of these roles at some point, depending on the size of the team you may be fulfilling multiple roles. The trick, find the balance between the team. Know your own strengths and weaknesses and create momentum. What happens if you are thrown into a role you aren’t comfortable with? Make it known, for starters. Maybe there’s someone else better suited for the role. It’s not a bad thing. As humans, we are too fearful to miss out on opportunities and too proud to admit otherwise that we set ourselves and our team up for failure. We are taught that “No” is negative when in fact it’s just being transparent. Think about it, no one would argue with this phrase in a game *“I’m an Ironclad warrior with a battle-ax, I probably shouldn’t be healing”.* Know your strengths and weaknesses keep a balance.
 
-![/posts/rolling_your_team_rpg_style/images/plenty.PNG](/posts/rolling_your_team_rpg_style/images/plenty.PNG "There's plenty for the both of us" ~Gimli")
+![/posts/2019-10-21-rolling-your-team-rpg-style/images/plenty.PNG](/posts/2019-10-21-rolling-your-team-rpg-style/images/plenty.PNG "There's plenty for the both of us" ~Gimli")
 
 
 What happens when no one else is available? Hopefully, there are people to reach out to… but that’s not always the case. Going with the same analogy above — You’re carrying a battle-ax and you see a teammate getting overwhelmed. You can’t heal them, so what do you do? You can’t just let them die — can you? At our core, regardless of personality and skill, we have the choice and ability to be a good human. Doing the right thing is not always easy, in this scenario, the goal is to survive and there is strength in numbers. You let your teammate know they’re not alone, you pick up your ax, and you get to work. Noting is ideal, but the worlds not perfect. You fight on, reassuring your teammate that someone has their back.
@@ -73,4 +73,4 @@ In the end, whether real-world projects or fantasy middle earth battles, remembe
 
 **Until next time …**
 
-![/posts/rolling_your_team_rpg_style/images/what-are-we-waiting-for.png](/posts/rolling_your_team_rpg_style/images/what-are-we-waiting-for.png "What are we waiting for..?! ~Gimli")
+![/images/what-are-we-waiting-for.jpg](/posts/2019-10-21-rolling-your-team-rpg-style/images/what-are-we-waiting-for.jpg "What are we waiting for..?! ~Gimli")

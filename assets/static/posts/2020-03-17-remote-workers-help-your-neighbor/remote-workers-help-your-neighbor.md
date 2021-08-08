@@ -1,6 +1,6 @@
 # Help Your Neighbor
 
-![Sharing.png](/posts/remote_workers/images/help_your_neighbor.jpg){:.title-image}
+![Sharing.png](/posts/2020-03-17-remote_workers/images/help_your_neighbor.jpg){:.title-image}
 
 Photo by [John Schnobrich](https://unsplash.com/@johnschno)
 
@@ -30,7 +30,7 @@ This week alone, I was contacted by a handful of organizations stressed just nee
 
 As a Software consultant, this is in my blood. ***Use the right tool for the job, and empower others along the way**.* If you work remotely I challenge you in the days and weeks ahead to reach out to your neighbors and help guide the way. A simple 15-minute call could save a team **months** of stress and anxiety.
 
-![Coffee.png](/posts/remote_workers/images/coffee.jpg)
+![Coffee.png](/posts/2020-03-17-remote_workers/images/coffee.jpg)
 
 Photo by [Joshua Ness](https://unsplash.com/@theexplorerdad)
 

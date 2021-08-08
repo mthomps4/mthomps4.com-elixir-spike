@@ -1,20 +1,16 @@
-![title-image](/posts/software_development_a_woodworkers_perspective/images/part4/band-aid-bear.jpg){:.title-image}
+![title-image](/posts/2019-03-15-software_development_a_woodworkers_perspective/images/part4/band-aid-bear.jpg){:.title-image}
 
 
 # Software Development: A Woodworkers Perspective (Part 4) “Don’t Be A Hero”
-
-**Previous:**
-[Part 3: Every Cut Counts](./software_development_a_woodworkers_perspective_(part3)-every-cut-counts)
-
-# **Don’t be a Hero**
+## **Don’t be a Hero**
 
 In other words — Don’t be such a stubborn, arrogant fool that you lose a piece of yourself in the process. Over the years my pride has definitely pushed me to some extremes I’m not proud to admit. As a craftsman, you know better. Wear the gloves, the eye protection, don’t have your hand so close to the blade… Safety first.
 
 However, there are times you just need to “Make something work”. I don’t always have the tools I need… but “Hey! If I rig this tool, maybe I can…” Innovation is a great tool, one that needs to be utilized but your pride and ego can easily push it over the edge sending you to the nearest urgent care or worse. So far I’ve been lucky… but I have witnessed others. Now they set a constant reminder.
 
-# “Don’t get so caught up in your work that you lose a piece of yourself… literally”
+> “Don’t get so caught up in your work that you lose a piece of yourself… literally”
 
-# **The Crossover**
+## **The Crossover**
 
 Sure, you probably won’t physically lose a piece of yourself typing away at a keyboard, but there’s a lot to learn here. The mental games can be a harder battle than physically getting hurt. The frustrations, stress, anger, depression, anxiety… they are real. It’s easy to say *“I’m going to make this work”* but how many hours do you spend trying to force it to your will? How long do you wait before asking for help? Do you? Deadlines are near, your team members have their own issues to deal with. It’s my responsibility, not theirs. What do you do?
 
